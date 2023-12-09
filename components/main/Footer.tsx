@@ -23,6 +23,8 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">brainwashsites@gmail.com</span>    
                     </p>
                 </div>
+                
+
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
