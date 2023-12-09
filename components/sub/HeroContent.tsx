@@ -49,11 +49,13 @@ const HeroContent = () => {
           We&apos;re a web design agency with over 5 years of experience. Check out our projects and skill set.
         </motion.p>
         <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More
-        </motion.a>
+  variants={slideInFromLeft(1)}
+  className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+  href="#projects"
+>
+  Learn More
+</motion.a>
+
       </div>
 
       <motion.div
